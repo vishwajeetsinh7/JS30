@@ -1,0 +1,52 @@
+html, body{
+    background-color: beige;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display:flex;
+    width: 100%;
+}
+
+
+
+.keys{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    background-color: lightgrey;
+    justify-content: center;
+
+
+    
+}
+
+.key{
+    height: 50%;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: solid 1px red;
+    transition: all .07s;
+}
+.playing{
+    transform: scale(2);
+    background-color: black;
+    border: solid 4px yellow;
+
+}
+
+
+kbd{
+    display: block;
+    text-align: center;
+
+}
+span{
+    display: block;
+    margin-top: 4px;
+    text-align: center;
+}
+
